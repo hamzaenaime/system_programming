@@ -1,0 +1,10 @@
+#include<stdlib.h>
+#include<stdio.h>
+
+int main(){
+	printf("this will show up\n");
+	execl("./system");
+	printf("this won't show up\ny
+");
+	return 0;
+}
